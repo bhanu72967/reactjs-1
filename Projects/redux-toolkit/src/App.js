@@ -10,7 +10,7 @@ function App ()
   return (
 		<div className='App'>
       <p>Count:{count}</p>
-			<button onClick={() => dispatch(INCR())}>blahblah</button>
+			<button onClick={() => dispatch(INCR())}>Increase</button>
 			<button onClick={() => dispatch(DECR())}>Decrease</button>
 		</div>
 	)
